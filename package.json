@@ -1,0 +1,64 @@
+{
+  "name": "subayai-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "jsname": "syTool",
+  "scripts": {
+    "dev": " cross-env NODE_ENV=dev rollup -c -w --bundleConfigAsCjs",
+    "build": "rimraf dist && cross-env NODE_ENV=production rollup -c --bundleConfigAsCjs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "vitest -w",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.internal.taqu.cn:npm/tool.git"
+  },
+  "keywords": [],
+  "author": "xiaozhi",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "types",
+    "index.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-external-helpers": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime": "^7.20.13",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@typescript-eslint/parser": "^5.49.0",
+    "@vitest/coverage-c8": "^0.28.3",
+    "@vitest/coverage-istanbul": "^0.28.3",
+    "cross-env": "^7.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jsdom": "^21.1.0",
+    "prettier": "^2.8.3",
+    "rollup": "^3.11.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-minification": "^0.2.0",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4",
+    "vitepress": "^1.0.0-alpha.40",
+    "vitest": "^0.28.3"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.1",
+    "dayjs": "^1.11.7"
+  }
+}
