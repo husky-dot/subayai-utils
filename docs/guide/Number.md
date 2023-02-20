@@ -21,7 +21,7 @@ type numberToThousands = (
 3. `options` 其他配置，`options.integerLength` 整数最大位数，`options.decimalsLength` 小数最大位数
 
 ```ts
-import { numberToThousands } from '@tqu/tool';
+import { numberToThousands } from 'subayai-utils';
 
 const num = 123456789;
 
@@ -55,7 +55,7 @@ type thousandsToString = (str: string, groupSeparator?: string) => string;
 - 示例
 
 ```ts
-import { thousandsToString } from '@tqu/tool';
+import { thousandsToString } from 'subayai-utils';
 
 const num = '123,456,789';
 

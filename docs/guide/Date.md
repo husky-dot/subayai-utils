@@ -22,7 +22,7 @@ type defaultTimeRange = (start: number, end: number) => DayJs[];
 - 示例
 
 ```ts
-import { defaultTimeRange } from '@tqu/tool';
+import { defaultTimeRange } from 'subayai-utils';
 
 defaultTimeRange(); //  [M, M]
 ```
@@ -49,7 +49,7 @@ type timeRangeToStamp = (dates: DayJs[]) => TimeRangeToStampResult;
 - 示例
 
 ```ts
-import { timeRangeToStamp } from '@tqu/tool';
+import { timeRangeToStamp } from 'subayai-utils';
 
 timeRangeToStamp([dayjs(), dayjs().add(1, 'D')]); 
 //  { startTime: 1676423594000, endTime: 1676423594000}
@@ -73,7 +73,7 @@ type dateFormat = (timestamp: string | number, formatStr?: string) => null | str
 - 示例
 
 ```ts
-import { dateFormat } from '@tqu/tool';
+import { dateFormat } from 'subayai-utils';
 
 console.log('date format:', dateFormat('1676302014000')); // 2023-02-13 23:26:54
 ```
@@ -106,7 +106,7 @@ type getRemainTime = (endTime: string | Date) => FormatRemainTimeResult;
 - 示例
 
 ```ts
-import { getRemainTime } from '@tqu/tool';
+import { getRemainTime } from 'subayai-utils';
 
 console.log(getRemainTime(new Date().getTime() + 10000));
 //{d: 0, h: 0, m: 0, s: 10, formatStr: '0天 0小时 0分钟 10秒'}
@@ -137,7 +137,7 @@ type getTimeLeft = (startTime, endTime) => FormatTimeValue | null;
 - 示例
 
 ```ts
-import { getTimeLeft } from '@tqu/tool';
+import { getTimeLeft } from 'subayai-utils';
 
 console.log(getTimeLeft(new Date().getTime(), new Date().getTime() + 20000)); // {d: 0, h: 0, m: 0, s: 20}
 ```
@@ -168,7 +168,7 @@ type getTimeValue = (timeValue: number) => FormatTimeValue;
 - 示例
 
 ```ts
-import { getTimeValue } from '@tqu/tool';
+import { getTimeValue } from 'subayai-utils';
 
 console.log(getTimeValue(new Date().getTime() + 20000));
 // {d: 0, h: 0, m: 0, s: 20}

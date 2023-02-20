@@ -23,7 +23,7 @@ layout: doc
 - 示例
 ```ts
 
-import { sliceArray } from "@tqu/tool";
+import { sliceArray } from "subayai-utils";
 
 const arr = [1,2,3,4,5,6,7 ];
 

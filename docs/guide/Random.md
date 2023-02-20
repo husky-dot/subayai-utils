@@ -17,7 +17,7 @@ type randomString = (len: number) => string;
 - 示例
 
 ```ts
-import { randomString } from '@tqu/tool';
+import { randomString } from 'subayai-utils';
 
 randomString(20); // ax2fwsKwt3xhXXxHzkpE
 ```
@@ -34,7 +34,7 @@ type  randomColor = () => string
 - 示例
 
 ```typescript
-import { randomColor } from '@tqu/tool';
+import { randomColor } from 'subayai-utils';
 
 randomColor(); // #d182b4
 ```
@@ -55,7 +55,7 @@ type randomInt = (min, max) => number
 2. `max` 生成的最大值
 
 ```typescript
-import { randomInt } from '@tqu/tool';
+import { randomInt } from 'subayai-utils';
 
 randomInt(0, 10); // 6
 ```
@@ -74,7 +74,7 @@ type randomUUID = () => string;
 - 示例
 
 ```ts
-import { randomUUID } from 'quick-utils-js';
+import { randomUUID } from 'subayai-utils';
 
 console.log('uuid', generateUUID()); // 'd1d023b0-5559-4f95-9ead-2446afca559f'
 ```

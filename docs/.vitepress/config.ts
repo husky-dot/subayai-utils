@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'zh-CN',
-  title: '@tqu/tool',
-  base: '/tool/',
+  title: 'subayai-utils',
+  base: './',
   description: '一个短小而精悍的现代JavaScript使用工具库',
   lastUpdated: true,
   head: [
@@ -13,7 +13,7 @@ module.exports = {
     sidebar: {
       '/guide/': sidebarGuide(),
     },
-    socialLinks: [{ icon: 'github', link: 'https://git.internal.taqu.cn/npm/tool' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/husky-dot/subayai-utils' }],
     editLink: {
       pattern: 'https://github.com/tobe-fe-dalao/fastool/tree/doc/docs/:path',
       text: '在GitHub编辑此页',
@@ -33,7 +33,7 @@ module.exports = {
 function nav() {
   return [
     { text: '介绍', link: '/guide/' },
-    { text: '加入我们', link: 'https://git.internal.taqu.cn/npm/tool' },
+    { text: '加入我们', link: 'https://github.com/husky-dot/subayai-utils' },
   ];
 }
 

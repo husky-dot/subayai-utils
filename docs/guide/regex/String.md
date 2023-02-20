@@ -22,7 +22,7 @@ type isChinese = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isChinese } from '@tqu/tool';
+import { isChinese } from 'subayai-utils';
 
 isChinese('中文'); // true
 
@@ -47,7 +47,7 @@ type numberReg = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isNumber } from '@tqu/tool';
+import { isNumber } from 'subayai-utils';
 
 isNumber('123'); // true
 
@@ -72,7 +72,7 @@ type isLetter = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isLetter } from '@tqu/tool';
+import { isLetter } from 'subayai-utils';
 
 isLetter('zhangsan'); // true
 
@@ -100,7 +100,7 @@ type isUpperLetter = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isUpperLetter } from '@tqu/tool';
+import { isUpperLetter } from 'subayai-utils';
 
 isUpperLetter('zhangsan'); // false
 
@@ -128,7 +128,7 @@ type isLowerLetter = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isLowerLetter } from '@tqu/tool';
+import { isLowerLetter } from 'subayai-utils';
 
 isLowerLetter('zhangsan'); // true
 
@@ -156,7 +156,7 @@ type isLetterNumber = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { isLetterNumber } from '@tqu/tool';
+import { isLetterNumber } from 'subayai-utils';
 
 isLetterNumber('zhangsan'); // true
 
@@ -186,7 +186,7 @@ type isLetterZhNumber = (str: string, maxLen?: number) => boolean;
 - 示例
 
 ```js
-import { letterZhNumberReg } from '@tqu/tool';
+import { letterZhNumberReg } from 'subayai-utils';
 
 isLetterZhNumber('中文'); // true
 
@@ -219,7 +219,7 @@ type isSpecialStr = (str: string, scope?: string) => boolean;
 - 示例
 
 ```js
-import { isSpecialStr } from '@tqu/tool';
+import { isSpecialStr } from 'subayai-utils';
 
 isSpecialStr('!@#$%^&*()_+-=[]{}|;:",./<>?'); // true
 
@@ -244,7 +244,7 @@ type isBase64 = (str: string) => boolean;
 - 示例
 
 ```js
-import { isBase64 } from '@tqu/tool';
+import { isBase64 } from 'subayai-utils';
 
 isBase64('dG9vbHR0LmNvbeWcqOe6v+W3peWFtw=='); // true
 ```

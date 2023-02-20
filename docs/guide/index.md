@@ -1,6 +1,6 @@
-# 什么是 @tqu/tool？
+# 什么是 subayai-utils？
 
-[@tqu/tool](https://git.internal.taqu.cn/npm/tool)，是一个短小而精悍的现代 JavaScript 使用工具库
+[subayai-utils](https://github.com/husky-dot/subayai-utils)，是一个短小而精悍的现代 JavaScript 使用工具库
 
 ## 动机
 

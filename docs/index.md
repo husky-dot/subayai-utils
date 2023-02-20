@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: tqu/tool
+title: subayai-utils
 titleTemplate: 一个短小而精悍的现代JavaScript使用工具库
 
 hero:
-  name: tqu/tool
+  name: subayai-utils
   text: 一个短小而精悍的现代JavaScript使用工具库
   tagline: typescript开发而成，集成了常用的业务工具函数
   actions:

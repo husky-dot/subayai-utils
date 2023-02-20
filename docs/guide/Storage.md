@@ -12,7 +12,7 @@
  * @returns {void}
  */
 // 事例
-import { setLocalStorage } from '@tqu/tool'
+import { setLocalStorage } from 'subayai-utils'
 
 setLocalStorage('key', { a: 1, b: 2 });
 ```
@@ -28,7 +28,7 @@ setLocalStorage('key', { a: 1, b: 2 });
  * @returns {any}
  */
 // 事例
-import { getLocalStorage } from '@tqu/tool'
+import { getLocalStorage } from 'subayai-utils'
 
 getLocalStorage('key');
 ```
@@ -44,7 +44,7 @@ getLocalStorage('key');
  * @returns {void}
  */
 // 事例
-import { delLocalStorage } from '@tqu/tool'
+import { delLocalStorage } from 'subayai-utils'
 
 delLocalStorage('key');
 ```
@@ -65,7 +65,7 @@ delLocalStorage('key');
  * @returns {any}
  */
 // 事例
-import { sessionStorage } from '@tqu/tool'
+import { sessionStorage } from 'subayai-utils'
 
 setSessionStorage('key', { a: 1, b: 2 });
 ```
@@ -81,7 +81,7 @@ setSessionStorage('key', { a: 1, b: 2 });
  * @returns {any}
  */
 // 事例
-import { getSessionStorage } from '@tqu/tool'
+import { getSessionStorage } from 'subayai-utils'
 
 getSessionStorage('key');
 ```
@@ -97,7 +97,7 @@ getSessionStorage('key');
  * @returns {any}
  */
 // 事例
-import { delSessionStorage } from '@tqu/tool'
+import { delSessionStorage } from 'subayai-utils'
 
 delSessionStorage('key');
 ```

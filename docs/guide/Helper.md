@@ -9,7 +9,7 @@ layout: doc
 - 示例
 
 ```ts
-import { isNumber } from '@tqu@tqu/tool';
+import { isNumber } from 'subayai-utils';
 
 console.log(isNumber('777')); // false
 
@@ -21,7 +21,7 @@ console.log(isNumber(7)); // true
 - 示例
 
 ```ts
-import { isString } from '@tqu@tqu/tool';
+import { isString } from 'subayai-utils';
 
 console.log(isString('777')); // true
 
@@ -33,7 +33,7 @@ console.log(isString(7)); // false
 - 示例
 
 ```ts
-import { isBoolean } from '@tqu@tqu/tool';
+import { isBoolean } from 'subayai-utils';
 
 console.log(isBoolean(!'')); // true
 
@@ -45,7 +45,7 @@ console.log(isBoolean(3 > 5)); // true
 - 示例
 
 ```ts
-import { isArray } from '@tqu@tqu/tool';
+import { isArray } from 'subayai-utils';
 
 console.log(isArray([])); // true
 
@@ -57,7 +57,7 @@ console.log(isArray({})); // false
 - 示例
 
 ```ts
-import { isObject } from '@tqu@tqu/tool';
+import { isObject } from 'subayai-utils';
 
 console.log(isObject([])); // false
 
@@ -69,7 +69,7 @@ console.log(isObject({})); // true
 - 示例
 
 ```ts
-import { isEmptyArray } from '@tqu@tqu/tool';
+import { isEmptyArray } from 'subayai-utils';
 
 console.log(isEmptyArray([])); // true
 
@@ -81,7 +81,7 @@ console.log(isEmptyArray([1])); // false
 - 示例
 
 ```ts
-import { isEmptyObject } from '@tqu@tqu/tool';
+import { isEmptyObject } from 'subayai-utils';
 
 console.log('isEmptyObject', isEmptyObject({})); // true
 
@@ -93,7 +93,7 @@ console.log('isEmptyObject', isEmptyObject({ a: 1 })); // false
 - 示例
 
 ```ts
-import { isNull } from '@tqu@tqu/tool';
+import { isNull } from 'subayai-utils';
 
 isNull(null); // true
 ```
@@ -103,7 +103,7 @@ isNull(null); // true
 - 示例
 
 ```ts
-import { isUndefined } from '@tqu@tqu/tool';
+import { isUndefined } from 'subayai-utils';
 
 isUndefined(undefined); // true
 ```
@@ -113,7 +113,7 @@ isUndefined(undefined); // true
 - 示例
 
 ```ts
-import { isDate } from '@tqu@tqu/tool';
+import { isDate } from 'subayai-utils';
 
 isDate('1998-01-02'); // false
 isDate(new Date()); // true
@@ -125,7 +125,7 @@ isDate(new Date('1998-01-02')); // true
 - 示例
 
 ```ts
-import { isFormData } from '@tqu@tqu/tool';
+import { isFormData } from 'subayai-utils';
 
 isFormData(new FormData()); // true
 ```
@@ -135,7 +135,7 @@ isFormData(new FormData()); // true
 - 示例
 
 ```ts
-import { isFile } from '@tqu@tqu/tool';
+import { isFile } from 'subayai-utils';
 
 isFile(new File([new Blob()], 'xxx.png')); // true
 ```
@@ -145,7 +145,7 @@ isFile(new File([new Blob()], 'xxx.png')); // true
 - 示例
 
 ```ts
-import { isBlob } from '@tqu@tqu/tool';
+import { isBlob } from 'subayai-utils';
 
 isBlob(new Blob([])); // true
 ```
@@ -159,7 +159,7 @@ isBlob(new Blob([])); // true
 - 示例
 
 ```ts
-import { isPromise } from '@tqu@tqu/tool';
+import { isPromise } from 'subayai-utils';
 
 const a = () => {
   console.log('test...');
@@ -189,7 +189,7 @@ isPromise(c); // true
 - 示例
 
 ```ts
-import { isAsyncFunction } from '@tqu@tqu/tool';
+import { isAsyncFunction } from 'subayai-utils';
 
 console.log(isAsyncFunction(() => {})); // false
 
@@ -216,7 +216,7 @@ console.log(
 - 示例
 
 ```ts
-import { isPlainFunction } from '@tqu@tqu/tool';
+import { isPlainFunction } from 'subayai-utils';
 
 console.log(isPlainFunction(() => {})); // true
 
@@ -262,7 +262,7 @@ type getValueType = (data: any) => ValueTypeEnum | string;
 - 示例
 
 ```ts
-import { getValueType } from '@tqu@tqu/tool';
+import { getValueType } from 'subayai-utils';
 
 console.log(getValueType({})); // 'object'
 

@@ -18,7 +18,7 @@ type isEmail = (email: string, isHaveChinese?: boolean) => boolean;
 - 示例
 
 ```js
-import { isEmail } from '@tqu/tool';
+import { isEmail } from 'subayai-utils';
 
 isEmail('zhangsan-123@yang.com'); // true
 
@@ -41,7 +41,7 @@ isEmail('zhangsan小智@qq.com', true); // true
  * @param { string } str 需要判断的数据
  * @return { boolean } 是否是手机号
  */
-import { isTelNumber } from '@tqu/tool';
+import { isTelNumber } from 'subayai-utils';
 
 if (isTelNumber(str)) {
   // doSomething;
@@ -58,7 +58,7 @@ if (isTelNumber(str)) {
  * @param { string } value 需要判断的数据
  * @return { boolean } 校验是否是URL
  */
-import { isUrl } from '@tqu/tool';
+import { isUrl } from 'subayai-utils';
 
 isUrl('https://www.baidu.com/'); // true
 isUrl('http://www.baidu.com/'); // false
@@ -75,7 +75,7 @@ isUrl('aaa'); // true
  * @param { string } str 需要校验的域名地址
  * @return { boolean }
  */
-import { isDomainUrl } from '@tqu/tool';
+import { isDomainUrl } from 'subayai-utils';
 
 domainUrlReg('www.baidu.com'); // true
 domainUrlReg('a.com.cn'); // true
@@ -104,7 +104,7 @@ type isLoosePwd = (str: string, len?: [number, number]) => boolean;
  * @param { string } str 需要校验的域名地址
  * @return { boolean }
  */
-import { isLoosePwd } from '@tqu/tool';
+import { isLoosePwd } from 'subayai-utils';
 
 isLoosePwd('123456'); // true
 
@@ -131,7 +131,7 @@ type isSimplePwd = (str: string, len?: [number, number]) => boolean;
 - 示例
 
 ```js
-import { isSimplePwd } from '@tqu/tool';
+import { isSimplePwd } from 'subayai-utils';
 
 isSimplePwd('123456'); // false
 
@@ -164,7 +164,7 @@ type isStrictPwd = (str: string, len?: [number, number]) => boolean;
 - 示例
 
 ```js
-import { isStrictPwd } from '@tqu/tool';
+import { isStrictPwd } from 'subayai-utils';
 
 isStrictPwd('190808098456'); // false
 
@@ -192,7 +192,7 @@ type isHexColor = (str: string) => boolean;
 - 事例
 
 ```typescript
-import { hexColorReg } from '@tqu/tool';
+import { hexColorReg } from 'subayai-utils';
 
 hexColorReg('#fff'); // true
 
@@ -216,7 +216,7 @@ hexColorReg('#FFFbb1'); // true
  * @param { number } type 1: 15位；2: 18位；默认0：同事匹配15位和18位
  * @return { boolean } 是否为身份证号
  */
-import { isCard } from '@tqu/tool';
+import { isCard } from 'subayai-utils';
 
 if (isCard(str, 1)) {
   // 一代身份证
@@ -237,7 +237,7 @@ if (isCard(str, 1)) {
  * @param { string } value 需要判断的数据(字符串数字)
  * @return { boolean } 是否是大陆邮政编码
  */
-import { isPostCode } from '@tqu/tool'
+import { isPostCode } from 'subayai-utils'
 
 if (if (isPostCode(str)) {
   // doSomething

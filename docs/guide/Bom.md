@@ -13,7 +13,7 @@ type getQueryParam = (param: string) => string | null;
 - 示例
 
 ```ts
-import { getQueryParam } from '@tqu/tool';
+import { getQueryParam } from 'subayai-utils';
 
 // ?foo=bar&baz=qux
 
@@ -34,7 +34,7 @@ type toggleFullScreen = = () => void;
 - 示例
 
 ```ts
-import { toggleFullScreen } from '@tqu/tool';
+import { toggleFullScreen } from 'subayai-utils';
 
 toggleFullScreen(); // 全屏
 toggleFullScreen(); // 退出全屏

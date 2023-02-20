@@ -60,5 +60,27 @@
   "dependencies": {
     "bignumber.js": "^9.1.1",
     "dayjs": "^1.11.7"
+  },
+  "description": "一个短小而精悍的现代JavaScript使用工具库",
+  "keywords": [
+    "vue",
+    "JavaScript utils",
+    "front end utils",
+    "utils",
+    "vue utils",
+    "react utils"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "前端小智",
+    "email": "449245884@qq.com",
+    "url": "https://github.com/qq449245884"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.longstudy.club/subayai-utils/index.html"
+  },
+  "bugs": {
+    "url": "https://github.com/qq449245884/vue-okr-tree/issues"
   }
 }

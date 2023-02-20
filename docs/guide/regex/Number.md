@@ -21,7 +21,7 @@ type isLargeNumber = (str: string) => boolean;
 - 示例
 
 ```js
-import { isLargeNumber } from '@tqu/tool';
+import { isLargeNumber } from 'subayai-utils';
 
 isLargeNumber('11.11'); // true
 
@@ -48,7 +48,7 @@ type isInteger = (str: string, minus?: boolean) => boolean;
 - 示例
 
 ```js
-import { isInteger } from '@tqu/tool';
+import { isInteger } from 'subayai-utils';
 
 isInteger('01'); // false
 
@@ -81,7 +81,7 @@ type isLooseDecimal = (str: string, decimalsMax?: number) => boolean;
 - 示例
 
 ```js
-import { isLooseDecimal } from '@tqu/tool';
+import { isLooseDecimal } from 'subayai-utils';
 
 isLooseDecimal('1.00'); // true
 
@@ -109,7 +109,7 @@ type isStrictDecimal = (str: string, options?: { decimalsMax?: number; minus?: b
 - 示例
 
 ```js
-import { isStrictDecimal } from '@tqu/tool';
+import { isStrictDecimal } from 'subayai-utils';
 
 isStrictDecimal('01.00'); // false
 

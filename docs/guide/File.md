@@ -18,7 +18,7 @@ type blobToBase64 = (blob: Blob) => Promise<BlobToBase64Result>;
 - 示例
 
 ```ts
-import { blobToBase64 } from '@tqu/tool';
+import { blobToBase64 } from 'subayai-utils';
 
 const blobToBase64test = async () => {
   const result = await blobToBase64(new File([new Blob()], 'xxx.png'));
@@ -52,7 +52,7 @@ type base64ToBlob = (config: Base64ToBlobConfig) => Promise<Base64ToBlobResult>;
 - 示例
 
 ```ts
-import { base64ToBlob } from '@tqu/tool'
+import { base64ToBlob } from 'subayai-utils'
 
 const result = await base64ToBlob({ base64Str: base64, fileName: '1', contentType: 'jpg' });
 
