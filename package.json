@@ -16,13 +16,6 @@
     "test": "vitest -w",
     "coverage": "vitest run --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@git.internal.taqu.cn:npm/tool.git"
-  },
-  "keywords": [],
-  "author": "xiaozhi",
-  "license": "Apache-2.0",
   "files": [
     "dist",
     "types",
