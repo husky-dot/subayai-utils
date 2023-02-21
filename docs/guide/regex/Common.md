@@ -189,7 +189,7 @@ type isHexColor = (str: string) => boolean;
 
 1. `str`需要校验的颜色值
 
-- 事例
+- 示例
 
 ```typescript
 import { hexColorReg } from 'subayai-utils';

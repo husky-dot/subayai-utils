@@ -1,5 +1,5 @@
 /*!
-* subayai-utils 1.0.0
+* subayai-utils 1.0.1
 * author: xiaozhi
 * Licensed under MIT
 */

@@ -11,7 +11,7 @@
  * @param {any} value
  * @returns {void}
  */
-// 事例
+// 示例
 import { setLocalStorage } from 'subayai-utils'
 
 setLocalStorage('key', { a: 1, b: 2 });
@@ -27,7 +27,7 @@ setLocalStorage('key', { a: 1, b: 2 });
  * @param {string} key
  * @returns {any}
  */
-// 事例
+// 示例
 import { getLocalStorage } from 'subayai-utils'
 
 getLocalStorage('key');
@@ -43,7 +43,7 @@ getLocalStorage('key');
  * @param {string} key
  * @returns {void}
  */
-// 事例
+// 示例
 import { delLocalStorage } from 'subayai-utils'
 
 delLocalStorage('key');
@@ -64,7 +64,7 @@ delLocalStorage('key');
  * @param {any} value
  * @returns {any}
  */
-// 事例
+// 示例
 import { sessionStorage } from 'subayai-utils'
 
 setSessionStorage('key', { a: 1, b: 2 });
@@ -80,7 +80,7 @@ setSessionStorage('key', { a: 1, b: 2 });
  * @param {string} key
  * @returns {any}
  */
-// 事例
+// 示例
 import { getSessionStorage } from 'subayai-utils'
 
 getSessionStorage('key');
@@ -96,7 +96,7 @@ getSessionStorage('key');
  * @param {string} key
  * @returns {any}
  */
-// 事例
+// 示例
 import { delSessionStorage } from 'subayai-utils'
 
 delSessionStorage('key');

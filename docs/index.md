@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/index
+      link: /guide/
     - theme: alt
       text: View GitLab
       link: https://git.internal.taqu.cn/npm/tool

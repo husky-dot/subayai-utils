@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'zh-CN',
   title: 'subayai-utils',
-  // base: './',
+  // base: '.',
   description: '一个短小而精悍的现代JavaScript使用工具库',
   lastUpdated: true,
   head: [

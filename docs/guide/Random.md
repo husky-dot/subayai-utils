@@ -76,5 +76,5 @@ type randomUUID = () => string;
 ```ts
 import { randomUUID } from 'subayai-utils';
 
-console.log('uuid', generateUUID()); // 'd1d023b0-5559-4f95-9ead-2446afca559f'
+console.log('uuid', randomUUID()); // 'd1d023b0-5559-4f95-9ead-2446afca559f'
 ```
