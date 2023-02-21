@@ -1,3 +1,12 @@
+#介绍
+
+`subayai-utils` 一个短小而精悍的现代JavaScript使用工具库,typescript开发而成，集成了常用的业务工具函数.
+
+文档地址:http://www.longstudy.club/subayai-utils/index.html
+
+
+> 注:subayai 是日语发,译为快的意思
+
 # 快速上手
 
 ## 安装
